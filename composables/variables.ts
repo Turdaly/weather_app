@@ -30,7 +30,7 @@ export interface Forecast {
 }
 export const currentCity = ref<CityWeather>()
 export const API_KEY = '916a39d373338e845094117e3444a02c'
-export const url = 'http://api.openweathermap.org'
+export const url = 'https://api.openweathermap.org'
 export const watcher = ref<boolean>(false)
 export const myCities = ref<CityWeather[]>([])
 export const deleteButton = ref<boolean>(false)
