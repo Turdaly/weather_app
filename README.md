@@ -72,4 +72,5 @@ yarn preview
 bun run preview
 ```
 
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+## Google Lighthouse.
+https://pagespeed.web.dev/analysis/https-weather-app-one-xi-43-vercel-app-search/r1tstzhj67?hl=ru&form_factor=mobile
