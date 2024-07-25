@@ -18,7 +18,7 @@
             <h1 class="text-2xl font-medium">{{ city.name }}</h1>
             <div>
               <h1 v-if="!deleteButton" class="text-5xl">{{ getTemp(city.main.temp) }}°</h1>
-              <Icon v-if="deleteButton" name="material-symbols:close-small-outline" size="42" @click="deleteCity(city)"></Icon>
+              <Icon v-if="deleteButton" name="material-symbols:close-small-outline" size="42" @click.stop.self="deleteCity(city)"></Icon>
             </div>
           </div>
         </div>
